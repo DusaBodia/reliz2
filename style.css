@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #8F0000;
+    background-image: linear-gradient(#42FF00, #289900);
+}
+
+p{
+    color: #000AFF;
+    background-color: beige;
+}
+
+.img{
+    width: 700px;
+    height: 300px;
+}
+
+footer{
+    text-align: center;
+    color: #8F0000;
+    background-image: linear-gradient(to right,#42FF00, #289900);
+}
+
+.gh {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.gh{
+    opacity: 0.2;
+    width: 500px;
+    height: 200px;
+    
+}
+
+.gh:hover {
+    opacity: 1;
+    border: 3px dashed blue;
+    width: 600px;
+    height: 300px;
+    padding: 5px;
+    transition: 0.5s ease-out;
+    
+}
+.a{
+    align-items: center;
+}
+
+.bo:hover{
+    color: gold;
+    background-color: navy;
+}
+
+.nty:hover{
+    color: #FF1800;
+    background-image: linear-gradient(#17F100,#A7FA00);
+}
+footer a{
+    text-decoration: none;
+    color:yellow;
+    
+}
